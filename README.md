@@ -1,6 +1,9 @@
 ## Project Goal
 This is a project uses AWS Lambda and Comprehend to monitor cryptocurrency prices in real-time, and analyze sentiment score of each cryptocurrency on Tweeter.
 
+## Video Introduction
+[Brief Introduction](https://youtu.be/V7MIlviO5pA)
+
 ## Architecture 
 The architecture for the pipeline is shown below. 
 
