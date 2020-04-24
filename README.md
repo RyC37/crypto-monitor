@@ -15,7 +15,7 @@ The architecture for the pipeline is shown below.
 ## Repository Structure
 This repository contains the code of:
 * [Producer Lambda]()
-* [Consumer Lambda]()
+* [Consumer Lambda](https://github.com/RyC37/crypto-monitor/blob/master/cryptosentiment/cryptosentiment/lambda_function.py)
 
 
 ## Reference Video:
