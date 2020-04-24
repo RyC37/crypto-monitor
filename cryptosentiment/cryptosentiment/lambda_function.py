@@ -20,8 +20,8 @@ LOG.addHandler(logHandler)
 import tweepy
 from tweepy import OAuthHandler
 
-API_KEY = "f9WiRMTrqXXDfKrxl0W5lC8wX"
-API_SECRET = "glEbTlZl6C4NtITaTxdCIpZYTNfXO4LFW8bf2h5QMHMo9Nprs0"
+API_KEY = "***"
+API_SECRET = "***"
 # Replace the API_KEY and API_SECRET with your application's key and secret.
 auth = OAuthHandler(API_KEY, API_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
@@ -48,7 +48,7 @@ parameters = {
 }
 headers = {
   'Accepts': 'application/json',
-  'X-CMC_PRO_API_KEY': '1f514daf-ff15-4b45-870e-12d08ee560b5',
+  'X-CMC_PRO_API_KEY': '***',
 }
 
 # Configurations
@@ -56,6 +56,7 @@ crypto_dict = {
     'BTC': 1,
     'ETH': 2
 }
+
 price_thred = {
     'BTC': 8000,
     'ETH': 200
